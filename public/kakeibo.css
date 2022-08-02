@@ -1,0 +1,593 @@
+li{
+    list-style: none;
+}
+div.sisyutu_goukei{
+    display: inline-block;
+    position: relative;
+    left: 980px;
+    top: 620px;
+    font-size: 20px;
+    
+}
+div.mainasu{
+    position: relative;
+    left: 820px;
+    top: 562px;
+    font-size: 50px;
+    color: #000000;
+    font-weight:100;
+}
+div.equal{
+    position: relative;
+    left: 1080px;
+    top: 497px;
+    font-size: 38px;
+    color: #000000;
+    font-weight:100;
+}
+div.syunyu_goukei{
+    display: inline-block;
+    position: relative;
+    left: 670px;
+    top: 620px;
+    font-size: 20px;
+   
+    
+}
+div.syusi{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    left:1170px;
+    top: 851px;
+    font-size: 20px;
+   
+}
+
+div.logo{
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    left: 950px;
+    top: -360px;
+    font-size: 30px;
+}
+
+a.tukibetu{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    right:-1390px;
+    top: -5%;
+}
+a.nenbetu{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    right:-1010px;
+    top: -5%;
+}
+a.mokuhyou{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    top: -5%;
+    left: 1450px;
+ 
+}
+
+a.nyuryoku{
+    display: inline-block;
+    position: relative;
+    top: -5%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    left: 1380px;
+}
+
+div.header_menu{
+    
+    background-color: #434343;
+    height: 60px;
+}
+img.logo_pic{
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+}
+div.logo{
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+header.header_main{
+    z-index: 40;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+div.Balance_column{
+    width:fit-content;
+    position: relative;
+    top: 705px;
+    border: solid 1px #535353;
+    right: -590px;
+   width: 690px;
+   height: 100px;
+}
+div.myPie{
+    position: relative;
+    height: 0%;
+    top: 0px;
+}
+div.home_name{
+    
+    color: #ffffff;
+    position: relative;
+    height: 0px;
+    width: 200px;
+    top: -50px;
+    font-size: 30px;
+}
+
+/* ↓↓支出合計額によって表示位置を変更する↓↓ */
+div.sisyutu_goukeigaku{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -930px;
+}
+div.sisyutu_goukeigaku3{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -920px;
+}
+
+div.sisyutu_goukeigaku5{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -915px;
+   width: 8%;
+    height: 0px;
+}
+div.sisyutu_goukeigaku7{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -905px;
+   width: 8%;
+    height: 0px;
+}
+div.sisyutu_goukeigaku9{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -890px;
+   width: 8%;
+    height: 0px;
+}
+div.sisyutu_goukeigaku11{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -887px;
+    width: 8%;
+    height: 0px;
+}
+
+/* ↑↑支出合計額によって表示位置を変更する↑↑ */
+
+/* ↓↓収入合計額によって表示位置を変更する↓↓ */
+
+div.syunyu_goukeigaku{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -620px; 
+}
+div.syunyu_goukeigaku3{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -610px; 
+}
+div.syunyu_goukeigaku5{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -600px;
+}
+div.syunyu_goukeigaku7{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -593px;
+}
+div.syunyu_goukeigaku9{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -585px;
+}
+div.syunyu_goukeigaku11{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -575px;
+}
+
+/* ↑↑収入合計額によって表示位置を変更する↑↑ */
+
+/* ↓↓収支額によって表示位置を変更する↓↓ */
+
+div.syusi_goukeigaku{
+    display: inline-block;
+    position: absolute;
+    top: 890px;
+    right: 700px;
+
+}
+div.syusi_goukeigaku3{
+    display: inline-block;
+    position: absolute;
+    top: 890px;
+    right: 690px;
+}
+div.syusi_goukeigaku5{
+    display: inline-block;
+    position: absolute;
+    top: 890px;
+    right: 680px;
+}
+div.syusi_goukeigaku7{
+    display: inline-block;
+    position: absolute;
+    top: 890px;
+    right: 670px;
+}
+div.syusi_goukeigaku9{
+    display: inline-block;
+    position: absolute;
+    top: 890px;
+    right: 660px;
+}
+div.syusi_goukeigaku11{
+    display: inline-block;
+    position: absolute;
+    top: 890px;
+    right: 650px;
+}
+/* ↑↑収支額によって表示位置を変更する↑↑ */
+
+
+
+
+input[type="number"] {
+    font-size: 25px;
+    width: 80px;
+    height: 33px;
+    border: solid 1px #000000;
+}
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+} 
+
+div.seireki_pos{
+    display: inline-block;
+    position: relative;
+    top: -855px;
+    right: -730px;
+
+}
+div.hiduke{
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    right: -820px;
+    font-size: 50px;
+
+}
+a.right_yazirusi{
+    text-align: center;
+    margin-top:  -1000px;
+    margin-left: 1190px;
+    font-size: 60px;
+    text-decoration: none;
+}
+a.right_yazirusi0{
+    text-align: center;
+    margin-top:  -1000px;
+    margin-left: 1190px;
+    font-size: 60px;
+    text-decoration: none;
+    display:none;
+}
+
+a.left_yazirusi{
+    text-align: center;
+    margin-top:  -1000px;
+    margin-left: -11px;
+    font-size: 60px;
+    text-decoration: none;
+}
+a.left_yazirusi0{
+    text-align: center;
+    margin-top:  -1000px;
+    margin-left: -11px;
+    font-size: 60px;
+    text-decoration: none;
+    display:none;
+}
+div.yazirusimigi{
+    position: relative;
+    width: 10px;
+    right: 102px;
+    top: -242px;
+}
+
+div.yazirusihidari{
+    position: relative;
+    width: 10px;
+    right: -760px;
+    top: -152px;
+}
+canvas.mypie21{
+    display: inline-block;
+    position: relative;
+    height: 0%;
+}
+
+div.kensaku{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    right: -1700px;
+    top: -165px;
+}
+div.karenda{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    right: -1560px;
+    top: -150px;
+}
+div.myPie_home{
+    position: relative;
+    height: 0%;
+    top: 100px;
+}
+div.myPie{
+    position: relative;
+    text-align: center;
+    height: 0%;
+    top: 100px;
+    right:10px;
+}
+div.myPie_zero{
+    position: relative;
+    height: 0%;
+    top: 100px;
+    right: 20px;
+    display:none;
+}
+div.yazirusimigi_zero{
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    right: 102px;
+    top: -48px;
+}
+div.yazirusimigi_0{
+    position: relative;
+    width: 10px;
+    right: 102px;
+    top: -138px;
+}
+div.yazirusihidari_zero{
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    right: -760px;
+    top: -48px;
+}
+div.kensaku_zero{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    right: -1700px;
+    top: -45px;
+}
+div.karenda_zero{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    right: -1560px;
+    top: -30px;
+}
+
+div.master_0{
+    position: relative;
+    right: -710px;
+    top: 300px;
+    height: 10px;
+    font-size: 50px;
+}
+div.hiduke_nenbetu{
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    right: -865px;
+    font-size: 50px;
+
+}
+div.kensaku_nenbetu{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    right: -1660px;
+    top: -163px;
+}
+div.kensaku_zero_nenbetu{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    right: -1660px;
+    top: -43px;
+}
+table{
+position: relative;
+text-align: center;
+top: 700px;
+}
+
+table.table_nenbetu{
+    position: relative;
+    text-align: center;
+    top: 680px;
+    }
+
+
+input.logout_bu{
+position: relative;
+display: inline-block;
+left: 1670px;
+border: 0em;
+top: -50px;
+color: #ffffff;
+font-size: 20px;
+background-color: #434343;
+}
+div.syusi_waku{
+    position: relative;
+    top: 0px;
+    left: -70px;
+    height: 0px;
+    
+}
+input.number_sisyutu{
+
+    border: thin 0px #767676;
+    width: 500px;
+
+}
+
+div.input_screen{
+    position: relative;
+    text-align: center;
+    top: 260px;
+    color: #000000;
+    
+}
+
+body.input_screen_backgrand{
+    background-color:#ffffff
+}
+h1.kakeibo_h1{
+    position: relative;
+    text-align: center;
+    
+}
+input.input_border{
+    width: 500px;
+}
+
+input.touroku{
+    position: relative;
+    top: 100px;
+    height: 50px;
+    width: 100px;
+}
+p.hiduke{
+    position: relative;
+    top: 60px;
+}
+p.kirikae_bu{
+    position: relative;
+    top: 50px;
+}
+p.sisyutu_syunyu{
+    position: relative;
+    top: 40px;
+}
+
+h2.kakeibo_h1{
+    position: relative;
+    text-align: center;
+    top: 240px;
+    color: #464646;
+    left: 15px;
+}
+
+div.user_name{
+    position: relative;
+    text-align: center;
+    top: -47px;
+    color: #ffffff;
+    font-size: 20px;
+    height: 0px;
+    right: 580px;
+}
+div.user_name_touroku{
+    position: relative;
+    text-align: center;
+    top: -47px;
+    color: #ffffff;
+    font-size: 20px;
+    height: 0px;
+    right: 588px;
+}
+
+body{
+    overflow-x: hidden;
+}
+div.yazirusimigi_henkou0{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 835px;
+    top: 160px;
+}
+div.yazirusimigi_henkou1{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 817px;
+    top: 160px;
+}
+
+div.yazirusihidari_henkou1{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 1170px;
+    top: 160px;
+}
+div.yazirusihidari_henkou0{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 1187px;
+    top: 160px;
+}
+div.yazirusi_henkou_null{
+    display:none;
+
+}
+input.yazirusi_btn{
+height: 30px;
+width: 80px;
+}
