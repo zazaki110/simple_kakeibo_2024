@@ -14,11 +14,11 @@ class CreateTargetamountsettingsTable extends Migration
     public function up()
     {
         Schema::create('targetamountsettings', function (Blueprint $table) {
-            $table->integer('id')->autoIncrement();
-            $table->integer('user_id')->nullable();
-            $table->integer('targetamountsetting')->nullable();
-            $table->timestamps();
-            $table->systemColumns(); // 共通カラム定義
+            //$table->integer('id')->autoIncrement();
+            //$table->integer('user_id')->nullable();
+           // $table->integer('targetamountsetting')->nullable();
+           // $table->timestamps();
+           // $table->systemColumns(); // 共通カラム定義
         });
     }
 
