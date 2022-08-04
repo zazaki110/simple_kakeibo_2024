@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Password;
 |
 */
 
-//Route::get('/', function () {
-    //return view('home');
-///});
+Route::get('/', function () {
+    return redirect("/login");
+});
 
 Auth::routes();
 
