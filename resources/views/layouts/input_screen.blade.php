@@ -11,9 +11,9 @@
 </head>
 
 {{ csrf_field() }}
-<header class="header_main"><div class="header_menu"><a class="tukibetu" href="http://127.0.0.1:8000/tarukame_totalling" >月別データ</a>
+<header class="header_main"><div class="header_menu"><a class="tukibetu" href="{{url('/tarukame_totalling',)}}" >月別データ</a>
     <div class="logo"> <a href="{{url('/tarukame_home',)}}"><img class="logo_pic" src="{{ asset('img/mark_yen_okaikei.png') }}" alt="ホームロゴ"></a></div>
-    <a class="nyuryoku" href="{{url('/register_member',)}}" >入力画面</a><a class="nenbetu" href="http://127.0.0.1:8000/tarukame_nenbetu">年別データ</a><div class="user_name_touroku">こんにちは&nbsp&nbsp{{$UserName}}さん</div>
+    <a class="nyuryoku" href="{{url('/register_member',)}}" >入力画面</a><a class="nenbetu" href="{{url('/tarukame_nenbetu',)}}">年別データ</a><div class="user_name_touroku">こんにちは&nbsp&nbsp{{$UserName}}さん</div>
     <div class="home_name">家計簿タルカメ</div>
     <form action="{{ route('logout') }}" method="post">
   @csrf
