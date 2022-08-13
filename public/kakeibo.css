@@ -634,11 +634,11 @@ div.home_name{
  
 a.nenbetu{
     display: inline-block;
-    position: relative;
+    position: absolute;
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    left:265px;
+    left:465px;
     top: 21px;
 }
 a.tukibetu{
