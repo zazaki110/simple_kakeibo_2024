@@ -602,24 +602,24 @@ width: 80px;
         position: relative;
         background-color: black;
         color: rgb(255, 255, 255);
-        left: 40px;
-        top: 3px;
+        left: 75px;
+        top: 7px;
         font-size: 10px;
     }
     img.logo_pic{
         
         background-color: #ffffff;
-        width: 25px;
-        height: 25px;
+        width: 40px;
+        height: 40px;
     }
     div.user_name{
     position: relative;
     text-align: center;
-    top: 5px;
+    top: -22px;
     color: #ffffff;
-    font-size: 11px;
+    font-size:16px;
     height: 0px;
-    right: 240px;
+    right:150px;
 }
 div.home_name{
     
@@ -628,34 +628,34 @@ div.home_name{
     height: 0px;
     width: 200px;
     top: -50px;
-    font-size: 13px;
+    font-size: 25px;
     left:5px;
 }
  
 a.nenbetu{
     display: inline-block;
     position: relative;
-    font-size: 10px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    left: 15px;
-    top: 26px;
+    left:265px;
+    top: 21px;
 }
 a.tukibetu{
     display: inline-block;
     position: relative;
-    font-size: 10px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    right:-190px;
-    top: 26px;
+    left:575px;
+    top: 21px;
 }
 a.nyuryoku{
     display: inline-block;
     position: relative;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    left:580px;
+    left:550px;
     top: 21px;
     font-size: 20px;
 }
