@@ -849,7 +849,7 @@ div.syusi_goukeigaku11{
 /* ↑↑収支額によって表示位置を変更する↑↑ */
 table{
     position: relative;
-    text-align: center;
+
     top: 370px;
     
     }
