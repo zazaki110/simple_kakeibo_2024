@@ -58,7 +58,7 @@
 
 
 
-   <div class={{$henkou}}><canvas id="myPieChart1" width="3800" height="1080" class="mypie2"></canvas> </div>
+   <div class={{$henkou}}><canvas id="myPieChart1" width="30%" height="9%" class="mypie2"></canvas> </div>
    <table class="table table-striped">
    <div class="itiran"> <th>件数</th><th>内容</th> <th>支出</th><th>収入</th><th>登録日時</th> </div>
    

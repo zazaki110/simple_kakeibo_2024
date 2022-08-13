@@ -619,7 +619,7 @@ width: 80px;
     color: #ffffff;
     font-size: 11px;
     height: 0px;
-    right: 290px;
+    right: 135px;
 }
 div.home_name{
     
@@ -679,10 +679,12 @@ input.logout_bu{
     }
     div.myPie{
         position: relative;
-        height: 0%;
+        display: flex;
+	    justify-content: center;
+        height: 0px;
         top: 50px;
-        width: 1000px;
-        right: 303px;
+        width: 800px;
+        right: 200px;
     }
     div.Balance_column{
         width:fit-content;
@@ -861,7 +863,11 @@ table{
         white-space: nowrap;
         font-size: 12px;
     }
-    body{
-        overflow-x: hidden;
+    canvas.mypie2{
+        width: 990px;
+       
     }
+    #canvas {
+        width: 2000px;
+      }
 }
