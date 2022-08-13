@@ -653,36 +653,36 @@ a.tukibetu{
 a.nyuryoku{
     display: inline-block;
     position: relative;
-    font-size: 10px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    left:180px;
-    top: 26px;
+    left:580px;
+    top: 21px;
+    font-size: 20px;
 }
 input.logout_bu{
     position: relative;
     display: inline-block;
-    left: 318px;
+    left: 790px;
     border: 0em;
-    top: -29px;
     color: #ffffff;
-    font-size: 11px;
+    top: -40px;
+    font-size: 20px;
     background-color: #434343;
     }
     div.hiduke{
         display: inline-block;
         position: relative;
         top: 50px;
-        left: 150px;
-        font-size: 20px;
+        left: 388px;
+        font-size: 25px;
     
     }
     div.myPie{
         position: relative;
         height: 0px;
         top: 50px;
-        width: 800px;
-        right: 200px;
+        width: 900px;
+        right: 0px;
     }
     div.Balance_column{
         width:fit-content;
