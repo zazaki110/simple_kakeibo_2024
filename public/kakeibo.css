@@ -595,7 +595,7 @@ width: 80px;
 
 
 @media screen and (max-width:580px) {
- /*　画面サイズが480px以下の場合ここの記述が適用される　*/
+ /*　画面サイズが580px以下の場合ここの記述が適用される　*/
 
     div.logo{
         display: inline-block;
@@ -619,7 +619,7 @@ width: 80px;
     color: #ffffff;
     font-size: 11px;
     height: 0px;
-    right: 135px;
+    right: 240px;
 }
 div.home_name{
     
@@ -679,8 +679,6 @@ input.logout_bu{
     }
     div.myPie{
         position: relative;
-        display: flex;
-	    justify-content: center;
         height: 0px;
         top: 50px;
         width: 800px;
@@ -863,11 +861,5 @@ table{
         white-space: nowrap;
         font-size: 12px;
     }
-    canvas.mypie2{
-        width: 990px;
-       
-    }
-    #canvas {
-        width: 2000px;
-      }
+    
 }
