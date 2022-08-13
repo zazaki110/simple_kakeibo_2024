@@ -689,8 +689,8 @@ input.logout_bu{
         position: relative;
         top: 350px;
         border: solid 1px #535353;
-        left: 45px;
-       width: 300px;
+        left: 165px;
+       width: 600px;
        height: 80px;
     }
     div.sisyutu_goukei{
@@ -856,10 +856,12 @@ table{
     }
     th{
         white-space: nowrap;
+        font-size: 25px;
     }
     td{
         white-space: nowrap;
-        font-size: 12px;
+        font-size: 32px;
+        
     }
     
 }
