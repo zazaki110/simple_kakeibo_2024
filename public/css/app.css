@@ -11,15 +11,18 @@
   position: relative;
   top: 200px;
  }
-
+ @media screen and (max-width:580px) {
+  /*　画面サイズが580px以下の場合ここの記述が適用される　*/
  div.login_logo_name{
     font-size: 40px;
     color: #000;
     text-align: center;
     position: relative;
     top: -50px;
-    left: 65px;
+    left: 5px;
  }
+ 
+}
 a.btn-link{
   position: relative;
   top: -55px;
