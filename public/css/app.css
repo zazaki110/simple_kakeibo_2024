@@ -21,7 +21,13 @@
     top: -50px;
     left: 10px;
  }
- 
+ div.member_regi{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  left: 0px;
+  top: -10px;
+  }
 }
 a.btn-link{
   position: relative;
@@ -43,7 +49,14 @@ left: 65px;
 top: -10px;
 
 }
-
+div.login_logo_name{
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: -50px;
+  left: 60px;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
