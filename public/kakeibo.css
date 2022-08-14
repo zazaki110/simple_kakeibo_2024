@@ -958,6 +958,13 @@ table{
             left: 860px;
             top: -135px;
         }
+        div.kensaku_zero{
+            position: relative;
+            width: 90px;
+            height: 0px;
+            left: 820px;
+            top: -12px;
+        }
         div.kensaku_zero_nenbetu{
             position: relative;
             width: 90px;
