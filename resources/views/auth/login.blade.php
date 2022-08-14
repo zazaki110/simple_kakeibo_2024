@@ -5,8 +5,8 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="box_login">
-               <div class="login_logo_name">ログイン</div>
-
+               <div class="login_logo_name"></div>
+<h1>ログイン</h1>
                 
                     <form method="POST" action="{{ route('login') }}">
                         @csrf

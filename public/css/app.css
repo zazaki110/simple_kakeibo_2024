@@ -6,7 +6,12 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
+h1{
+  text-align: center;
+  position: relative;
+  left: 60px;
+  top: -50px;
+}
  main.py-4{
   position: relative;
   top: 200px;
@@ -27,6 +32,12 @@
   position: relative;
   left: 0px;
   top: -10px;
+  }
+  h1{
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top: 0px;
   }
 }
 a.btn-link{
