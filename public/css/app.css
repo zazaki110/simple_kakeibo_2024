@@ -6,6 +6,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ 
 h1{
   text-align: center;
   position: relative;
@@ -39,6 +40,10 @@ h1{
     left: 10px;
     top: 0px;
   }
+  div.md-0-ps{
+    position: relative;
+    left: -25px;
+   }
 }
 a.btn-link{
   position: relative;
