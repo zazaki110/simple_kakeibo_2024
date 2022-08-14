@@ -638,7 +638,7 @@ a.nenbetu{
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    left:195px;
+    left:210px;
     top: 21px;
 }
 a.tukibetu{
@@ -704,40 +704,41 @@ input.logout_bu{
 div.sisyutu_goukeigaku{
     display: inline-block;
     position: relative;
-    top: 280px;
-    left: 246px;
+    top: 310px;
+    left: 400px;
+    font-size: 22px;
 }
 div.sisyutu_goukeigaku3{
     display: inline-block;
     position: relative;
     top: 310px;
-    left: 380px;
+    left: 390px;
     font-size: 22px;
 }
 
 div.sisyutu_goukeigaku5{
     display: inline-block;
     position: relative;
-    top: 655px;
-    right: -915px;
-   width: 8%;
-    height: 0px;
+    top: 310px;
+    left: 380px;
+    font-size: 22px;
+    white-space: nowrap;
 }
 div.sisyutu_goukeigaku7{
     display: inline-block;
     position: relative;
-    top: 655px;
-    right: -905px;
-   width: 8%;
-    height: 0px;
+    top: 310px;
+    left: 360px;
+    font-size: 22px;
+    white-space: nowrap;
 }
 div.sisyutu_goukeigaku9{
     display: inline-block;
     position: relative;
-    top: 655px;
-    right: -890px;
-   width: 8%;
-    height: 0px;
+    top: 310px;
+    left: 350px;
+    font-size: 22px;
+    white-space: nowrap;
 }
 div.sisyutu_goukeigaku11{
     display: inline-block;
@@ -768,33 +769,37 @@ div.syunyu_goukeigaku{
 div.syunyu_goukeigaku3{
     display: inline-block;
     position: relative;
-    top: 655px;
-    left: 380px;
+    top: 310px;
+    left: 115px;
     font-size: 22px;
 }
 div.syunyu_goukeigaku5{
     display: inline-block;
     position: relative;
-    top: 655px;
-    right: -600px;
+    top: 310px;
+    left: 105px;
+    font-size: 22px;
 }
 div.syunyu_goukeigaku7{
     display: inline-block;
     position: relative;
-    top: 655px;
-    right: -593px;
+    top: 310px;
+    left: 90px;
+    font-size: 22px;
 }
 div.syunyu_goukeigaku9{
     display: inline-block;
     position: relative;
-    top: 655px;
-    right: -585px;
+    top: 310px;
+    left: 80px;
+    font-size: 22px;
 }
 div.syunyu_goukeigaku11{
     display: inline-block;
     position: relative;
-    top: 655px;
-    right: -575px;
+    top: 310px;
+    left: 80px;
+    font-size: 22px;
 }
 
 /* ↑↑収入合計額によって表示位置を変更する↑↑ */
@@ -812,16 +817,18 @@ div.syunyu_goukeigaku11{
 div.syusi_goukeigaku{
     display: inline-block;
     position: absolute;
-    top: 310px;
-    left: 48px;
-    font-size: 10px;
+    top: 475px;
+    left: 650px;
+    font-size: 22px;
+    white-space: nowrap;
 }
 div.syusi_goukeigaku3{
     display: inline-block;
     position: absolute;
-    top: -310px;
-    left: 48px;
-    font-size: 10px;
+    top: 475px;
+    left: 635px;
+    font-size: 22px;
+    white-space: nowrap;
 }
 div.syusi_goukeigaku5{
     display: inline-block;
@@ -834,20 +841,26 @@ div.syusi_goukeigaku5{
 div.syusi_goukeigaku7{
     display: inline-block;
     position: absolute;
-    top: 890px;
-    right: 670px;
+    left: 615px;
+    font-size: 22px;
+    top: 475px;
+    white-space: nowrap;
 }
 div.syusi_goukeigaku9{
     display: inline-block;
     position: absolute;
-    top: 890px;
-    right: 660px;
+    left: 595px;
+    font-size: 22px;
+    top: 475px;
+    white-space: nowrap;
 }
 div.syusi_goukeigaku11{
     display: inline-block;
     position: absolute;
-    top: 890px;
-    right: 650px;
+    top: 475px;
+    left: 610px;
+    font-size: 22px;
+    white-space: nowrap;
 }
 /* ↑↑収支額によって表示位置を変更する↑↑ */
 table{
