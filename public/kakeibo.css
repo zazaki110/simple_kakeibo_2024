@@ -937,4 +937,75 @@ table{
             left: 860px;
             top: -135px;
         }
+        /* データ登録と編集用 */
+        input.input_border{
+            width: 200px;
+        }
+        div.home_name_register{
+         position: relative;
+         font-size: 18px;
+         top: -28px;
+         left: 10px;
+        }
+        img.logo_pic_register{
+            background-color: #ffffff;
+            width: 30px;
+            height: 30px;
+        }
+        div.logo_register{
+            display: inline-block;
+            position: relative;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            left: 75px;
+            top: 0px;
+        }
+
+        div.user_name_touroku_register{
+            position: relative;
+            top: 0px;
+            color: #ffffff;
+            font-size:13px;
+            height: 0px;
+            right:130px;
+        }
+        a.nenbetu_register
+        {
+            display: inline-block;
+            position: relative;
+             font-size: 11px;
+             color: rgb(255, 255, 255);
+             text-decoration: none;
+             left:45px;
+             top: 13px;
+        }
+        a.tukibetu_register
+        {
+            display: inline-block;
+            position: relative;
+             font-size: 11px;
+             color: rgb(255, 255, 255);
+             text-decoration: none;
+             left:235px;
+             top: 13px;
+        }
+        a.nyuryoku_register{
+            display: inline-block;
+            position: relative;
+             font-size: 11px;
+             color: rgb(255, 255, 255);
+             text-decoration: none;
+             left:210px;
+             top: 13px;
+        }
+        input.logout_bu_register{
+            position: relative;
+            display: inline-block;
+            left: 350px;
+            border: 0em;
+            color: #ffffff;
+            top: -17px;
+            font-size: 11px;
+            background-color: #434343
+        }
    }
