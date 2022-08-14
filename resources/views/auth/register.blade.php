@@ -6,8 +6,8 @@
         <div class="col-md-8">
             
             
-               <div class="member_regi">会員登録</div>
-
+               <div class="member_regi"></div>
+<h1>会員登録</h1>
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
