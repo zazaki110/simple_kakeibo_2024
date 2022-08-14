@@ -995,13 +995,13 @@ table{
              font-size: 11px;
              color: rgb(255, 255, 255);
              text-decoration: none;
-             left:210px;
+             left:205px;
              top: 13px;
         }
         input.logout_bu_register{
             position: relative;
             display: inline-block;
-            left: 350px;
+            left: 345px;
             border: 0em;
             color: #ffffff;
             top: -17px;
