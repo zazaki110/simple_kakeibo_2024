@@ -930,5 +930,11 @@ table{
             left: 300px;
             top: 95px;
         }
-
+        div.kensaku{
+            position: relative;
+            width: 0px;
+            height: 0px;
+            left: 900px;
+            top: -135px;
+        }
    }
