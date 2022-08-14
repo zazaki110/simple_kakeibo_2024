@@ -594,6 +594,8 @@ width: 80px;
 
 
 
+
+
 @media screen and (max-width:580px) {
  /*　画面サイズが580px以下の場合ここの記述が適用される　*/
 
@@ -858,7 +860,7 @@ div.syusi_goukeigaku11{
     display: inline-block;
     position: absolute;
     top: 475px;
-    left: 610px;
+    left: 590px;
     font-size: 22px;
     white-space: nowrap;
 }
@@ -878,5 +880,45 @@ table{
         font-size: 32px;
         
     }
-    
-}
+
+    div.karenda{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        left: 750px;
+        top: -120px;
+    }
+    div.kensaku_nenbetu{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        left: 850px;
+        top: -133px;
+    }
+    div.hiduke_nenbetu{
+        display: inline-block;
+        position: relative;
+        top: 50px;
+        left: 413px;
+        font-size: 25px;
+
+    }
+    table.table_nenbetu{
+        position: relative;
+        top: 370px;
+        }
+        div.yazirusimigi_henkou1{
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            right: 515px;
+            top: 95px;
+        }
+        div.yazirusihidari_henkou1{
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            left: 300px;
+            top: 95px;
+        }
+   }
