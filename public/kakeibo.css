@@ -901,7 +901,7 @@ table{
         position: relative;
         width: 10px;
         height: 10px;
-        left: 680px;
+        left: 720px;
         top: 0px;
     }
     div.kensaku_nenbetu{
@@ -960,9 +960,9 @@ table{
         }
         div.kensaku_zero_nenbetu{
             position: relative;
-            width: 0px;
+            width: 90px;
             height: 0px;
-            left: 770px;
+            left: 820px;
             top: -12px;
         }
 
