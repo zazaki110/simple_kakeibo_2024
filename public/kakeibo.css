@@ -1051,5 +1051,6 @@ table{
             height: 10px;
             font-size: 50px;
             white-space: nowrap;
+            width: 800px;
         }
    }
