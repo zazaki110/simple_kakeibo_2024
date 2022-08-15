@@ -670,6 +670,7 @@ input.logout_bu{
     top: -40px;
     font-size: 20px;
     background-color: #434343;
+    
     }
     div.hiduke{
         display: inline-block;
@@ -1051,6 +1052,14 @@ table{
             height: 10px;
             font-size: 50px;
             white-space: nowrap;
-            width: 1800px;
+            
+        }
+        div.space{
+
+            position: relative;
+            width: 90px;
+            height: 0px;
+            left: 820px;
+            top: -12px;
         }
    }
