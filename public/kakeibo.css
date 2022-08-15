@@ -590,7 +590,10 @@ input.yazirusi_btn{
 height: 30px;
 width: 80px;
 }
-
+div.space{
+    position: relative;
+    visibility:hidden;
+}
 
 
 
