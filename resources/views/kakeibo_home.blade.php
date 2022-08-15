@@ -105,8 +105,7 @@
    
    
   
-   <div class="space">&nbsp&nbsp</div>
-   
+   <div class="space"><input class="btn btn-secondary" type="submit" value="検索"></div>
 
 
    @if($recodes==true)
