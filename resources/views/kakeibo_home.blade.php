@@ -104,7 +104,9 @@
    @endif
    
    
-  
+   {{ csrf_field() }}
+      <div class="space"><input type="number" name="seireki" id="nenbetu_seireki" value={{$seireki}} onchange="ischeck5(this)" required></div> <!-- ユーザが検索フォームから値を入力して年別にデータを取得できるようにする -->
+      <div class="space"><input class="btn btn-secondary" type="submit" value="検索"></div>
    <div class="space"><input class="btn btn-secondary" type="submit" value="検索"></div>
 
 

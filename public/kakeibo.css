@@ -1055,11 +1055,10 @@ table{
             
         }
         div.space{
-
             position: relative;
             width: 90px;
             height: 0px;
-            left: 820px;
+            left: 3000px;
             top: -12px;
         }
    }
