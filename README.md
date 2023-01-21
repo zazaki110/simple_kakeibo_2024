@@ -1,6 +1,6 @@
 # アプリケーション名
  
-「シンプル家計簿」  
+ シンプル家計簿  
 
  # アプリケーション概要  
  
@@ -12,7 +12,7 @@
  
 # テスト用アカウント
  
-メールアドレス　test.portfolio.0001@gmail.com
+メールアドレス　test.portfolio.0001@gmail.com  
 パスワード Testaccount001
  
 # 利用方法
