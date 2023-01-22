@@ -1615,8 +1615,11 @@ public function data_search_seireki_previous_year(Request $request) //前年度�
     public function delete_kakeibo($id)
 
     {
+        
         payments::where('id', $id)->delete();
-
-        return back();
+        return redirect('tarukame_home');
+        //$this->kakeibo_home();
+        //return back();
+        //url()->previous();//前のページに戻る
     }
 }
