@@ -72,6 +72,7 @@
       <th>支出</th>
       <th>収入</th>
       <th>登録日時</th>
+      <th>編集|消去</th>
     </div>
     @foreach ($recodes as $syuturyoku)
     @if($loop->index=$counter++)

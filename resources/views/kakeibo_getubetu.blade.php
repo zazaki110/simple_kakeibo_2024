@@ -58,7 +58,7 @@
 
 <div class={{$henkou}}><canvas id="myPieChart1" width="3800" height="1080" class="mypie2"></canvas> </div>
 <table class="table table-striped table_nenbetu">
-   <div class="itiran"><th>件数</th> <th>内容</th> <th>支出</th><th>収入</th><th>登録日時</th> </div>
+   <div class="itiran"><th>件数</th> <th>内容</th> <th>支出</th><th>収入</th><th>登録日時</th><th>編集|消去</th> </div>
     @foreach ($recodes as $syuturyoku)
     @if($loop->index=$counter++)
 

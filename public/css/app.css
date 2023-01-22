@@ -6,20 +6,45 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
+ 
+h1{
+  text-align: center;
+  position: relative;
+  left: 60px;
+  top: -50px;
+}
  main.py-4{
   position: relative;
   top: 200px;
  }
-
+ @media screen and (max-width:580px) {
+  /*　画面サイズが580px以下の場合ここの記述が適用される　*/
  div.login_logo_name{
     font-size: 40px;
     color: #000;
     text-align: center;
     position: relative;
     top: -50px;
-    left: 65px;
+    left: 10px;
  }
+ div.member_regi{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  left: 0px;
+  top: -10px;
+  }
+  h1{
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  div.md-0-ps{
+    position: relative;
+    left: -30px;
+   }
+}
 a.btn-link{
   position: relative;
   top: -55px;
@@ -40,7 +65,14 @@ left: 65px;
 top: -10px;
 
 }
-
+div.login_logo_name{
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+  position: relative;
+  top: -50px;
+  left: 60px;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;

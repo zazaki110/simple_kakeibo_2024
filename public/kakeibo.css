@@ -41,7 +41,6 @@ div.syusi{
     left:1170px;
     top: 851px;
     font-size: 20px;
-   
 }
 
 div.logo{
@@ -249,7 +248,7 @@ div.syusi_goukeigaku5{
     display: inline-block;
     position: absolute;
     top: 890px;
-    right: 680px;
+    right: 690px;
 }
 div.syusi_goukeigaku7{
     display: inline-block;
@@ -591,3 +590,478 @@ input.yazirusi_btn{
 height: 30px;
 width: 80px;
 }
+div.space{
+    position: relative;
+    visibility:hidden;
+}
+
+
+
+
+
+@media screen and (max-width:580px) {
+ /*　画面サイズが580px以下の場合ここの記述が適用される　*/
+
+    div.logo{
+        display: inline-block;
+        position: relative;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        left: 75px;
+        top: 7px;
+        font-size: 10px;
+    }
+    img.logo_pic{
+        
+        background-color: #ffffff;
+        width: 40px;
+        height: 40px;
+    }
+    div.user_name{
+    position: relative;
+    top: -22px;
+    color: #ffffff;
+    font-size:16px;
+    height: 0px;
+    right:-150px;
+    width: 300px;
+}
+div.home_name{
+    
+    color: #ffffff;
+    position: relative;
+    height: 0px;
+    width: 200px;
+    top: -50px;
+    font-size: 25px;
+    left:5px;
+}
+ 
+a.nenbetu{
+    display: inline-block;
+   position: relative;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    left:230px;
+    top: 21px;
+}
+a.tukibetu{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    left:575px;
+    top: 21px;
+}
+a.nyuryoku{
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    left:550px;
+    top: 21px;
+    font-size: 20px;
+}
+input.logout_bu{
+    position: relative;
+    display: inline-block;
+    left: 790px;
+    border: 0em;
+    color: #ffffff;
+    top: -40px;
+    font-size: 20px;
+    background-color: #434343;
+    
+    }
+    div.hiduke{
+        display: inline-block;
+        position: relative;
+        top: 50px;
+        left: 388px;
+        font-size: 25px;
+    
+    }
+    div.myPie{
+        position: relative;
+        height: 0px;
+        top: 50px;
+        width: 900px;
+        right: 0px;
+    }
+    div.Balance_column{
+        width:fit-content;
+        position: relative;
+        top: 350px;
+        border: solid 1px #535353;
+        left: 165px;
+       width: 600px;
+       height: 80px;
+    }
+    div.sisyutu_goukei{
+        display: inline-block;
+        position: relative;
+        left: 470px;
+        top: 273px;
+        font-size: 27px;
+    }
+    /* ↓↓支出合計額によって表示位置を変更する↓↓ */
+div.sisyutu_goukeigaku{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 400px;
+    font-size: 22px;
+}
+div.sisyutu_goukeigaku3{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 390px;
+    font-size: 22px;
+}
+
+div.sisyutu_goukeigaku5{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 380px;
+    font-size: 22px;
+    white-space: nowrap;
+}
+div.sisyutu_goukeigaku7{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 360px;
+    font-size: 22px;
+    white-space: nowrap;
+}
+div.sisyutu_goukeigaku9{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 350px;
+    font-size: 22px;
+    white-space: nowrap;
+}
+div.sisyutu_goukeigaku11{
+    display: inline-block;
+    position: relative;
+    top: 655px;
+    right: -887px;
+    width: 8%;
+    height: 0px;
+}
+
+/* ↑↑支出合計額によって表示位置を変更する↑↑ */
+    div.syunyu_goukei{
+        display: inline-block;
+        position: relative;
+        left: 200px;
+        top: 273px;
+        font-size: 27px;
+    }
+/* ↓↓収入合計額によって表示位置を変更する↓↓ */
+
+div.syunyu_goukeigaku{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 130px;
+    font-size: 22px;
+}
+div.syunyu_goukeigaku3{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 115px;
+    font-size: 22px;
+}
+div.syunyu_goukeigaku5{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 105px;
+    font-size: 22px;
+}
+div.syunyu_goukeigaku7{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 90px;
+    font-size: 22px;
+}
+div.syunyu_goukeigaku9{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 80px;
+    font-size: 22px;
+}
+div.syunyu_goukeigaku11{
+    display: inline-block;
+    position: relative;
+    top: 310px;
+    left: 80px;
+    font-size: 22px;
+}
+
+/* ↑↑収入合計額によって表示位置を変更する↑↑ */
+
+    div.syusi{
+        display: inline-block;
+        position: absolute;
+        white-space: nowrap;
+        left: 640px;
+        top: 431px;
+        font-size: 27px;
+    }
+    /* ↓↓収支額によって表示位置を変更する↓↓ */
+
+div.syusi_goukeigaku{
+    display: inline-block;
+    position: absolute;
+    top: 475px;
+    left: 650px;
+    font-size: 22px;
+    white-space: nowrap;
+}
+div.syusi_goukeigaku3{
+    display: inline-block;
+    position: absolute;
+    top: 475px;
+    left: 635px;
+    font-size: 22px;
+    white-space: nowrap;
+}
+div.syusi_goukeigaku5{
+    display: inline-block;
+    position: absolute;
+    top: 475px;
+    left: 630px;
+    font-size: 22px;
+    white-space: nowrap;
+}
+div.syusi_goukeigaku7{
+    display: inline-block;
+    position: absolute;
+    left: 615px;
+    font-size: 22px;
+    top: 475px;
+    white-space: nowrap;
+}
+div.syusi_goukeigaku9{
+    display: inline-block;
+    position: absolute;
+    left: 595px;
+    font-size: 22px;
+    top: 475px;
+    white-space: nowrap;
+}
+div.syusi_goukeigaku11{
+    display: inline-block;
+    position: absolute;
+    top: 475px;
+    left: 590px;
+    font-size: 22px;
+    white-space: nowrap;
+}
+/* ↑↑収支額によって表示位置を変更する↑↑ */
+
+header.header_main{
+    z-index: 40;
+    position: fixed;
+    width: 100%;
+    height: 10px;
+    top: 0px;
+}
+
+table{
+    position: relative;
+
+    top: 370px;
+    
+    }
+    th{
+        white-space: nowrap;
+        font-size: 25px;
+    }
+    td{
+        white-space: nowrap;
+        font-size: 32px;
+        
+    }
+
+    div.karenda{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        left: 750px;
+        top: -120px;
+    }
+    div.karenda_zero{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        left: 720px;
+        top: 0px;
+    }
+    div.kensaku_nenbetu{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        left: 850px;
+        top: -133px;
+    }
+    div.hiduke_nenbetu{
+        display: inline-block;
+        position: relative;
+        top: 50px;
+        left: 413px;
+        font-size: 25px;
+
+    }
+    table.table_nenbetu{
+        position: relative;
+        top: 370px;
+        }
+        div.yazirusimigi_henkou1{
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            right: -120px;
+            top: 95px;
+        }
+        div.yazirusimigi_henkou0{
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            right: -120px;
+            top: 95px;
+        }
+        div.yazirusihidari_henkou1{
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            left: 300px;
+            top: 95px;
+        }
+        div.yazirusihidari_henkou0{
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            left: 300px;
+            top: 95px;
+        }
+        div.kensaku{
+            position: relative;
+            width: 0px;
+            height: 0px;
+            left: 860px;
+            top: -135px;
+        }
+        div.kensaku_zero{
+            position: relative;
+            width: 90px;
+            height: 0px;
+            left: 890px;
+            top: -12px;
+        }
+        div.kensaku_zero_nenbetu{
+            position: relative;
+            width: 90px;
+            height: 0px;
+            left: 820px;
+            top: -12px;
+        }
+
+        /* データ登録と編集用 */
+        input.input_border{
+            width: 200px;
+        }
+        div.home_name_register{
+         position: relative;
+         font-size: 18px;
+         top: -28px;
+         left: 0px;
+        }
+        img.logo_pic_register{
+            background-color: #ffffff;
+            width: 30px;
+            height: 30px;
+        }
+        div.logo_register{
+            display: inline-block;
+            position: relative;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            left: 65px;
+            top: 0px;
+        }
+
+        div.user_name_touroku_register{
+            position: relative;
+            top: 0px;
+            color: #ffffff;
+            font-size:13px;
+            height: 0px;
+            right:140px;
+        }
+        a.nenbetu_register
+        {
+            display: inline-block;
+            position: relative;
+             font-size: 11px;
+             color: rgb(255, 255, 255);
+             text-decoration: none;
+             left:35px;
+             top: 13px;
+        }
+        a.tukibetu_register
+        {
+            display: inline-block;
+            position: relative;
+             font-size: 11px;
+             color: rgb(255, 255, 255);
+             text-decoration: none;
+             left:235px;
+             top: 13px;
+        }
+        a.nyuryoku_register{
+            display: inline-block;
+            position: relative;
+             font-size: 11px;
+             color: rgb(255, 255, 255);
+             text-decoration: none;
+             left:205px;
+             top: 13px;
+        }
+        input.logout_bu_register{
+            position: relative;
+            display: inline-block;
+            left: 345px;
+            border: 0em;
+            color: #ffffff;
+            top: -17px;
+            font-size: 11px;
+            background-color: #434343
+        }
+        div.master_0{
+            position: relative;
+            right: -200px;
+            top: 200px;
+            height: 10px;
+            font-size: 50px;
+            white-space: nowrap;
+            
+        }
+        div.space{
+            position: relative;
+            width: 90px;
+            height: 0px;
+            left: 890px;
+            top: -12px;
+        }
+   }

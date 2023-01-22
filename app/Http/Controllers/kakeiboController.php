@@ -1561,6 +1561,7 @@ public function data_search_seireki_previous_year(Request $request) //前年度�
     public function edit_screen_kakeibo($id, $naiyou, $sisyutu, $syunyuu, $nitizi)
 
     {
+        $UserName = \Auth::user()->name;
         $datawatas = [
             'id' => $id,
             'naiyou' => $naiyou,
@@ -1569,7 +1570,7 @@ public function data_search_seireki_previous_year(Request $request) //前年度�
             'nitizi' => $nitizi,
         ];
 
-        return view('kakeibo_hensyuu', $datawatas);
+        return view('kakeibo_hensyuu',compact('UserName'),$datawatas);
     }
 
 
