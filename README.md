@@ -8,7 +8,7 @@
  
 # URL  
  
-  https://desolate-wildwood-89455.herokuapp.com/login 画像の挿入できれば....
+  https://desolate-wildwood-89455.herokuapp.com/login
  
 # テスト用アカウント
  

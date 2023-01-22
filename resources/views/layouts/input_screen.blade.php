@@ -16,7 +16,7 @@
 <header class="header_main"><div class="header_menu"><a class="tukibetu tukibetu_register" href="{{url('/tarukame_totalling',)}}" >月別データ</a>
     <div class="logo logo_register"> <a href="{{url('/tarukame_home',)}}"><img class="logo_pic logo_pic_register" src="{{ asset('img/mark_yen_okaikei.png') }}" alt="ホームロゴ"></a></div>
     <a class="nyuryoku nyuryoku_register" href="{{url('/register_member',)}}" >入力画面</a><a class="nenbetu nenbetu_register" href="{{url('/tarukame_nenbetu',)}}">年別データ</a><div class="user_name_touroku user_name_touroku_register">こんにちは&nbsp&nbsp{{$UserName}}さん</div>
-    <div class="home_name home_name_register">家計簿タルカメ</div>
+    <div class="home_name home_name_register">シンプル家計簿</div>
     <form action="{{ route('logout') }}" method="post">
   @csrf
   <input type="submit" class="logout_bu logout_bu_register" value="ログアウト">
