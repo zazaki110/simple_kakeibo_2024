@@ -14,7 +14,7 @@
     <a class="nyuryoku" href="{{url('/register_member',)}}">入力画面</a><a class="nenbetu" href="{{url('/tarukame_nenbetu',)}}">年別データ</a>
     <div class="user_name">こんにちは&nbsp&nbsp{{$UserName}}さん</div>
   </div>
-  <div class="home_name">家計簿タルカメ</div>
+  <div class="home_name">シンプル家計簿</div>
 
   <form action="{{ route('logout') }}" method="post">
     @csrf
